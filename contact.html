@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <title>30 Seconds to Mars</title>
+        <link rel="stylesheet" href="CSS/normalize.css"/>
+        <link rel="stylesheet" href="CSS/style.css"/> 
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Montserrat|Nunito" rel="stylesheet">
+    </head>
+    <body>
+             <nav>
+                <a href="index.html">Accueil</a> ♦
+                <a href="biography.html">Biographie</a> ♦
+                <a href="albums.html">Albums</a> ♦
+                <a href="lyrics.html">Paroles</a> ♦
+                <a href="concerts.html">Concerts et news</a> ♦
+                <span id="lienActif">Contact</span>
+            </nav>
+        
+            <header><h1>30 Seconds To Mars</h1></header>
+
+                <form action="http://www.bbug.be/freelance/i3/output.php" method="post">
+            <fieldset>
+            <legend>Formulaire de contact</legend>
+                   <p>Une question ? Envie de rebondir sur une information ? Envie d'échanger tout simplement ? N'hésitez pas à envoyer un message !</p>
+                <fieldset>
+                    <legend>Vous</legend>
+                    
+                        <label for="id_nom">Nom :</label>
+                        <input type="text" id="id_nom" name="lastname" required/>
+                        
+                        <label for="id_prenom">Prénom :</label>
+                        <input type="text" id="id_prenom" name="firstname" required/> <br/>
+                        
+                        <label for="adressemail">Adresse e-mail :</label>
+                        <input type="text" id="adressemail" name="adresseemail" /><br/>
+                       
+                </fieldset><br/>
+                
+                <fieldset>
+                   
+                    <legend>Votre message</legend><textarea name="message" cols="60" wrap="hard" placeholder="Votre message." required></textarea>
+                       
+                </fieldset><br/>
+                
+            </fieldset>
+
+             <br/><button type="submit">Envoyer mon message</button>
+                    
+    </form><br/>
+
+        <br/>
+        <footer>
+        <p>&#64; MademoizelleZ 2017</p>
+        </footer>
+    </body>
+</html>
