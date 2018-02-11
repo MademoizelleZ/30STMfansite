@@ -1,0 +1,232 @@
+html{
+  width: 100%;  
+}
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 0 auto 0 auto;*/
+    background-color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('../images/fondplumes.png');
+    back
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+    background-color: #1a1a72;
+    background-image: url('../images/fondmoyenplumes.png');
+    color:aliceblue;
+    border-radius: 0 0 100px 100px;
+    padding: 25px;
+    box-shadow: 3px 2px 10px black;
+    word-spacing: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav > a { /*Concernant les liens de la navigation uniquement, j'ai retiré la class lienNavigation que j'avais créée au départ*/
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+a{
+   text-decoration: none;
+    color: #589fb1;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #307b8e;
+}
+
+nav > a:hover{
+    color: #42c9eb;
+    background-color: #2727a3;
+}
+
+#lienActif{ /*Ce n'est plus un lien du coup, mais c'est la page sur laquelle on est.*/
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #3e6abf;
+    box-shadow: 1px 0px 10px #5fbaba;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 0px 3px grey;
+}
+
+figure{
+    text-align: center;
+    /**/
+}
+
+img{
+    border-radius: 100px;
+}
+
+.styleImg{ /*Pour l'image d'accueil.*/
+    border-radius: 100px;
+    border: 1px ridge grey;
+    box-shadow: 1px 5px 10px black;
+    
+}
+
+.styleImgBio{ /*Pour les photos de la bio*/
+    border-radius: 100px;
+    border: 1px ridge grey;
+    box-shadow: 1px 5px 10px black;
+    
+}
+
+h2{
+    text-align: center;
+    color: #2727a3;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3{
+    font-style: italic;
+}
+h4{
+    color: #3b3b9a;
+    font-size: 12px;
+}
+
+h2 + h4{
+    color: #3b3b9a;
+    text-align: center;
+} /*Penser au fait que ce sont des enfants*/
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: justify;
+    padding: 10px;
+}
+
+#tableauAlbums{
+    border: none;
+}
+
+.tdPaddingTexte{
+    padding: 20px;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}
+
+#pBiography p::first-letter{
+    color: dimgray;
+    font-size: 25px;
+}
+
+.lyrics  {
+    color: #23394d;
+}
+
+#tableauparoles{   
+    width: 80%;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 20px;
+
+}
+
+#tableauparoles td{
+    width: 35%;
+    background-color: #f0f8ff;
+    background-image: url('../images/fondflou.png');
+    padding: 0 60px 0 60px;
+    border: 1px solid #c1c0c0;
+    border-radius: 5px;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+iframe{ /*ici pour les vidéos Youtube*/
+    align-content: center;
+    border: 0px;
+}
+
+.titrealbum{ 
+    font-size: 20px;
+    color: grey;
+    list-style: square;
+}
+
+li{
+    font-size: 15px;
+    color: #23394d;
+}
+
+#tableauAlbums {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#tableauAlbums{
+        vertical-align: top;
+        padding: 20px;
+}
+
+form{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px grey;
+    padding: 20px;
+}
+
+fieldset{
+    border-color: slateblue;
+    color: #2727a3;
+    line-height: 40px;
+}
+
+legend{
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=text], textarea, button{
+    color: darkblue;
+    border: 1px solid #2727a3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+footer{
+    margin-bottom: 0;
+    text-decoration: none;
+    background-color: #191969;
+    background-image: url('../images/fondmoyenplumes.png');
+    color:aliceblue;
+    border-radius: 100px 100px 0 0;
+    padding: 1px;
+    box-shadow: 1px 1px 10px black;
+    word-spacing: #;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+footer > p {
+    text-align: center;
+}
